@@ -8,6 +8,14 @@
     "IsPlusMode": false
   },
   {
+    "PlayerName": "afafwr",
+    "Attempts": 2,
+    "DifficultyMax": 50,
+    "DurationSeconds": 4.6793634,
+    "Date": "2026-06-20T15:56:26.2598611+02:00",
+    "IsPlusMode": true
+  },
+  {
     "PlayerName": "Feku222",
     "Attempts": 4,
     "DifficultyMax": 50,
@@ -29,14 +37,6 @@
     "DifficultyMax": 50,
     "DurationSeconds": 19.9493977,
     "Date": "2026-06-19T23:07:24.6942091+02:00",
-    "IsPlusMode": false
-  },
-  {
-    "PlayerName": "Feku",
-    "Attempts": 17,
-    "DifficultyMax": 50,
-    "DurationSeconds": 28.0206851,
-    "Date": "2026-06-20T13:49:52.7259219+02:00",
     "IsPlusMode": false
   }
 ]

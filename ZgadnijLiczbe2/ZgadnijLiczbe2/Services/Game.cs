@@ -7,6 +7,7 @@ namespace ZgadnijLiczbe2.Services
 {
     public class Game
     {
+        //abstrakcja
         private readonly int maxNumber;
         private readonly Random rnd = new Random();
         private int secret;
@@ -14,7 +15,8 @@ namespace ZgadnijLiczbe2.Services
         private readonly Stopwatch sw = new Stopwatch();
         private readonly int? maxAttemptsIfBet;
         private readonly bool isPlusMode;
-        private readonly int plusInterval;
+        private int plusInterval;
+        private bool lastRerolled = false;
         private readonly Models.Language language;
 
         public Game(int maxNumber, int? maxAttemptsIfBet = null, bool isPlusMode = false, Models.Language language = Models.Language.PL)
@@ -43,7 +45,16 @@ namespace ZgadnijLiczbe2.Services
 
                 if (previousGuess.HasValue)
                 {
-                    var hint = previousGuess.Value > secret ? RandomHighMessage() : RandomLowMessage();
+                    string hint;
+                    if (lastRerolled)
+                    {
+                        hint = L.NumberChanged(language);
+                        lastRerolled = false;
+                    }
+                    else
+                    {
+                        hint = previousGuess.Value > secret ? RandomHighMessage() : RandomLowMessage();
+                    }
                     var combined = hint + "\n" + L.Attempt(language, attempts);
                     writeLine(combined, true);
                 }
@@ -60,12 +71,6 @@ namespace ZgadnijLiczbe2.Services
                     continue;
                 }
 
-                if (isPlusMode && (attempts % plusInterval) == 0)
-                {
-                    ResetSecret();
-                    writeLine(L.PlusReshuffled(language), false);
-                }
-
                 if (guess == secret)
                 {
                     sw.Stop();
@@ -74,6 +79,13 @@ namespace ZgadnijLiczbe2.Services
                     writeLine(L.EnterName(language), false);
                     var name = readNamePrompt();
                     return (true, name, attempts, duration);
+                }
+
+                if (isPlusMode && plusInterval > 0 && (attempts % plusInterval) == 0)
+                {
+                    ResetSecret();
+                    lastRerolled = true;
+                    plusInterval = new int[] { 6, 7, 8 }[rnd.Next(3)];
                 }
 
                 previousGuess = guess;

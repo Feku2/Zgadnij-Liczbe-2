@@ -8,24 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\barte\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\FekuLaptop\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\barte\\Desktop\\zaliczenia oop\\ZgadnijLiczbeOOP\\ZgadnijLiczbe2\\ZgadnijLiczbe2\\ZgadnijLiczbe2.csproj",
+      "projectUniqueName": "C:\\Users\\FekuLaptop\\Desktop\\ZgadnijLiczbeOOP\\ZgadnijLiczbe2\\ZgadnijLiczbe2\\ZgadnijLiczbe2.csproj",
       "projectName": "ZgadnijLiczbe2",
-      "projectPath": "C:\\Users\\barte\\Desktop\\zaliczenia oop\\ZgadnijLiczbeOOP\\ZgadnijLiczbe2\\ZgadnijLiczbe2\\ZgadnijLiczbe2.csproj",
-      "packagesPath": "C:\\Users\\barte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\barte\\Desktop\\zaliczenia oop\\ZgadnijLiczbeOOP\\ZgadnijLiczbe2\\ZgadnijLiczbe2\\obj\\",
+      "projectPath": "C:\\Users\\FekuLaptop\\Desktop\\ZgadnijLiczbeOOP\\ZgadnijLiczbe2\\ZgadnijLiczbe2\\ZgadnijLiczbe2.csproj",
+      "packagesPath": "C:\\Users\\FekuLaptop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FekuLaptop\\Desktop\\ZgadnijLiczbeOOP\\ZgadnijLiczbe2\\ZgadnijLiczbe2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\barte\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\FekuLaptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

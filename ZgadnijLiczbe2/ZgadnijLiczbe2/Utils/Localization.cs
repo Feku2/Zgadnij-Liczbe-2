@@ -24,6 +24,7 @@ namespace ZgadnijLiczbe2.Utils
         public static string InvalidNumber(Language lang) => lang==Language.PL? "Podaj poprawna liczbe!" : "Please enter a valid number!";
         public static string Attempt(Language lang, int n) => lang==Language.PL? $"Numer twojej proby: {n}" : $"Attempt {n}:";
         public static string PlusReshuffled(Language lang) => lang==Language.PL? "(Tryb Plus) Sekret zostal przelosowany." : "(Plus mode) The secret number was reshuffled.";
+        public static string NumberChanged(Language lang) => lang==Language.PL? "Liczba została zmieniona" : "Number has been changed";
         public static string CorrectResult(Language lang, int attempts, double duration) => lang==Language.PL? $"Trafiles! Proby: {attempts}, Czas: {duration:F1}s" : $"Correct! Attempts: {attempts}, Time: {duration:F1}s";
         public static string ReachedMax(Language lang) => lang==Language.PL? "Przekroczono maksymalna liczbe prob. Koniec gry." : "Reached maximum attempts. Game over.";
         public static string ResultSaved(Language lang) => lang==Language.PL? "Wynik zapisano do Hall of Fame." : "Result saved to Hall of Fame.";

@@ -12,3 +12,17 @@ C:\Users\barte\Desktop\zaliczenia oop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLic
 C:\Users\barte\Desktop\zaliczenia oop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ZgadnijLiczbe2.pdb
 C:\Users\barte\Desktop\zaliczenia oop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ZgadnijLiczbe2.genruntimeconfig.cache
 C:\Users\barte\Desktop\zaliczenia oop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ref\ZgadnijLiczbe2.dll
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\bin\Debug\net10.0\ZgadnijLiczbe2.exe
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\bin\Debug\net10.0\ZgadnijLiczbe2.deps.json
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\bin\Debug\net10.0\ZgadnijLiczbe2.runtimeconfig.json
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\bin\Debug\net10.0\ZgadnijLiczbe2.dll
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\bin\Debug\net10.0\ZgadnijLiczbe2.pdb
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ZgadnijLiczbe2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ZgadnijLiczbe2.AssemblyInfoInputs.cache
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ZgadnijLiczbe2.AssemblyInfo.cs
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ZgadnijLiczbe2.csproj.CoreCompileInputs.cache
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ZgadnijLiczbe2.dll
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\refint\ZgadnijLiczbe2.dll
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ZgadnijLiczbe2.pdb
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ZgadnijLiczbe2.genruntimeconfig.cache
+C:\Users\FekuLaptop\Desktop\ZgadnijLiczbeOOP\ZgadnijLiczbe2\ZgadnijLiczbe2\obj\Debug\net10.0\ref\ZgadnijLiczbe2.dll

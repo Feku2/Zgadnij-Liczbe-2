@@ -1,5 +1,5 @@
 {
-  "Language": 0,
-  "AskForBet": true,
+  "Language": 1,
+  "AskForBet": false,
   "HasAnyGames": true
 }

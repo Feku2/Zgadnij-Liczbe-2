@@ -10,11 +10,14 @@ namespace ZgadnijLiczbe2.UI
     {
         private readonly SettingsService settings;
         private readonly HallOfFame hall;
+        private readonly Notifier notifier;
 
         public ConsoleUI(SettingsService settings, HallOfFame hall)
         {
             this.settings = settings;
             this.hall = hall;
+            //polimorfizm
+            this.notifier = new Services.ConsoleNotifier();
         }
 
         private void SettingsMenu()
@@ -216,6 +219,9 @@ namespace ZgadnijLiczbe2.UI
             hall.Add(entry);
             settings.Settings.HasAnyGames = true;
             settings.Save();
+            var lang = settings.Settings.Language;
+            //polimorfizm w użyciu
+            notifier.Notify(L.ResultSaved(lang));
         }
 
         private void ShowTop5(int level)

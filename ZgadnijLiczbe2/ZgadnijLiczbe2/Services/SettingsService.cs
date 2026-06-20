@@ -10,6 +10,8 @@ namespace ZgadnijLiczbe2.Services
         private const string FileName = "settings.json";
         public GameSettings Settings { get; private set; }
 
+        
+
         public SettingsService()
         {
             Load();
