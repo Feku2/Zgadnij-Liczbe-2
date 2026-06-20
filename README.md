@@ -3,7 +3,7 @@
 Konsolowa gra napisana w C# (podejście obiektowe). Jest to sequel klasycznej gry "Zgadnij liczbę" — rozszerzony o tryb "Nowa gra plus", ekran ustawień oraz Hall of Fame zapamiętujące TOP5 wyników.
 
 Start
-- Uruchom projekt w Visual Studio lub z katalogu projektu: dotnet run
+- Pobierz wszystkie pliki i uzyj pliku .exe aby wystartować
 
 Krótki opis
 - Gra tekstowa: losowana jest liczba z zakresu zależnego od wybranego poziomu trudności. Gracz podaje kolejne liczby aż trafi.
@@ -32,13 +32,9 @@ Pliki zapisu i konfiguracji
 - halloffame.json — zapis wyników (w pliku przechowywane są maksymalnie TOP5 dla każdego poziomu).
 
 Uwagi techniczne
-- Projekt stosuje zasadę: jedna klasa na plik.
-- Aplikacja targetuje .NET 10.
+- Gra używa .NET 10.
 
 Obsługa
 1. Sterowanie: cyfry i wpisy tekstowe z klawiatury.
 2. W menu wybierz opcję (cyfra) i zatwierdź Enter.
 3. W ustawieniach możesz przemieszczać się po opcjach numerami i zmieniać wartości.
-
-Licencja / Kontakt
-- Projekt edukacyjny; instrukcje i kod w repozytorium.
