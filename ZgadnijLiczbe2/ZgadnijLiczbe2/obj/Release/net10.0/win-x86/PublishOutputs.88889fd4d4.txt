@@ -1,0 +1,5 @@
+C:\Users\barte\Desktop\Nowy folder\ZgadnijLiczbe2.exe
+C:\Users\barte\Desktop\Nowy folder\ZgadnijLiczbe2.dll
+C:\Users\barte\Desktop\Nowy folder\ZgadnijLiczbe2.deps.json
+C:\Users\barte\Desktop\Nowy folder\ZgadnijLiczbe2.runtimeconfig.json
+C:\Users\barte\Desktop\Nowy folder\ZgadnijLiczbe2.pdb

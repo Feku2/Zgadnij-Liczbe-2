@@ -1,0 +1,42 @@
+[
+  {
+    "PlayerName": "Bartek",
+    "Attempts": 1,
+    "DifficultyMax": 50,
+    "DurationSeconds": 2.5977446,
+    "Date": "2026-06-19T23:12:42.7106995+02:00",
+    "IsPlusMode": false
+  },
+  {
+    "PlayerName": "Feku222",
+    "Attempts": 4,
+    "DifficultyMax": 50,
+    "DurationSeconds": 12.1574079,
+    "Date": "2026-06-20T13:55:49.6230324+02:00",
+    "IsPlusMode": false
+  },
+  {
+    "PlayerName": "Feku",
+    "Attempts": 13,
+    "DifficultyMax": 50,
+    "DurationSeconds": 0,
+    "Date": "2026-06-19T23:07:29.8150766+02:00",
+    "IsPlusMode": false
+  },
+  {
+    "PlayerName": "Feku",
+    "Attempts": 13,
+    "DifficultyMax": 50,
+    "DurationSeconds": 19.9493977,
+    "Date": "2026-06-19T23:07:24.6942091+02:00",
+    "IsPlusMode": false
+  },
+  {
+    "PlayerName": "Feku",
+    "Attempts": 17,
+    "DifficultyMax": 50,
+    "DurationSeconds": 28.0206851,
+    "Date": "2026-06-20T13:49:52.7259219+02:00",
+    "IsPlusMode": false
+  }
+]
